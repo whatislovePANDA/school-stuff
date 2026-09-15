@@ -25,9 +25,10 @@ const open = ref(false)
 
 <style scoped>
 .bell-times { margin-bottom:16px; }
-.panel { margin-top:10px; background:#f8fafc; padding:12px; border-radius:8px; }
-.row { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+.panel { margin-top:10px; background:var(--surface); border:1px solid var(--border); padding:12px; border-radius:8px; }
+.row { display:flex; align-items:center; gap:8px; margin-bottom:6px; color:var(--text); }
 .row span:first-child { width:70px; }
 .actions { margin-top:10px; display:flex; gap:8px; }
-.danger { background:#fee2e2; }
+.danger { background:var(--danger-soft); border-color:var(--danger); color:var(--text); }
+input[type="time"] { background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:4px 6px; }
 </style>

@@ -50,6 +50,6 @@ const currentInfo = computed(() => {
 </template>
 
 <style scoped>
-.now-banner { background:#1e293b; color:#fff; padding:12px 16px; border-radius:8px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:16px; }
+.now-banner { background:var(--surface-strong); color:var(--text); padding:12px 16px; border-radius:8px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:16px; border:1px solid var(--border); }
 .clock { font-size:1.4rem; font-weight:700; }
 </style>

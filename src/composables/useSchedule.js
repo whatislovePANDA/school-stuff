@@ -17,20 +17,20 @@ const defaultBells = [
 ]
 
 const defaultLessons = [
-  { id: 1, day: 'ПН', period: 1, text: '5А математика' },
-  { id: 2, day: 'ПН', period: 4, text: '8Б інформатика' },
-  { id: 3, day: 'ПН', period: 5, text: '11Б інформатика' },
-  { id: 4, day: 'ПН', period: 6, text: '11Б інформатика' },
-  { id: 5, day: 'ВТ', period: 1, text: '11А інформатика' },
-  { id: 6, day: 'ВТ', period: 6, text: '5А математика' },
-  { id: 7, day: 'ВТ', period: 7, text: '10А інформатика' },
-  { id: 8, day: 'СР', period: 5, text: '5А математика' },
-  { id: 9, day: 'СР', period: 6, text: '10Б інформатика' },
-  { id: 10, day: 'СР', period: 7, text: '7Б інформатика' },
-  { id: 11, day: 'ЧТ', period: 2, text: '5А математика' },
-  { id: 12, day: 'ЧТ', period: 7, text: '9Б інформатика' },
-  { id: 13, day: 'ПТ', period: 3, text: '5А математика' },
-  { id: 14, day: 'ПТ', period: 6, text: '11Б інформатика' },
+  { id: 1, day: 'ПН', period: 1, text: '5А мат' },
+  { id: 2, day: 'ПН', period: 4, text: '8Б інф' },
+  { id: 3, day: 'ПН', period: 5, text: '11Б інф' },
+  { id: 4, day: 'ПН', period: 6, text: '11Б інф' },
+  { id: 5, day: 'ВТ', period: 1, text: '11А інф' },
+  { id: 6, day: 'ВТ', period: 6, text: '5А мат' },
+  { id: 7, day: 'ВТ', period: 7, text: '10А інф' },
+  { id: 8, day: 'СР', period: 5, text: '5А мат' },
+  { id: 10, day: 'СР', period: 7, text: '10Б інф' },
+  { id: 11, day: 'ЧТ', period: 2, text: '5А мат' },
+  { id: 12, day: 'ЧТ', period: 7, text: '9Б інф' },
+  { id: 13, day: 'ПТ', period: 3, text: '5А мат' },
+  { id: 14, day: 'ПТ', period: 6, text: '11Б інф' },
+  { id: 9, day: 'ПТ', period: 7, text: '7Б інф' },
 ]
 
 function load(key, fallback) {

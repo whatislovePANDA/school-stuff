@@ -61,20 +61,20 @@ function cancel() { editing.value = null }
 
 <style scoped>
 .table-wrap { overflow-x:auto; }
-table { border-collapse: collapse; width:100%; min-width:700px; }
-th, td { border:1px solid #cbd5e1; padding:6px; text-align:center; vertical-align: middle; }
-th { background:#f1f5f9; }
-.period-cell { background:#f8fafc; font-weight:600; }
-.time { font-size:.75rem; color:#64748b; font-weight:400; }
-.lesson-cell { min-width:110px; height:48px; }
-.lesson { cursor:pointer; background:#dbeafe; border-radius:6px; padding:4px; font-size:.85rem; }
-.lesson:hover { background:#bfdbfe; }
-.add-btn { width:28px; height:28px; border-radius:50%; border:1px dashed #94a3b8; background:transparent; color:#64748b; cursor:pointer; }
-.add-btn:hover { background:#e2e8f0; }
-.modal-backdrop { position:fixed; inset:0; background:rgba(0,0,0,.4); display:flex; align-items:center; justify-content:center; }
-.modal { background:#fff; padding:20px; border-radius:10px; width:280px; }
-.modal input { width:100%; padding:8px; margin:10px 0; box-sizing:border-box; }
+table { border-collapse: collapse; width:100%; min-width:700px; color:var(--text); }
+th, td { border:1px solid var(--border); padding:6px; text-align:center; vertical-align: middle; }
+th { background:var(--surface-strong); }
+.period-cell { background:var(--surface); font-weight:600; }
+.time { font-size:.75rem; color:var(--text-muted); font-weight:400; }
+.lesson-cell { min-width:110px; height:48px; background:var(--bg); }
+.lesson { cursor:pointer; background:var(--accent-soft); color:var(--text); border-radius:6px; padding:4px; font-size:.85rem; }
+.lesson:hover { background:var(--accent-soft-hover); }
+.add-btn { width:28px; height:28px; border-radius:50%; border:1px dashed var(--text-muted); background:transparent; color:var(--text-muted); cursor:pointer; }
+.add-btn:hover { background:var(--surface-strong); }
+.modal-backdrop { position:fixed; inset:0; background:rgba(0,0,0,.55); display:flex; align-items:center; justify-content:center; }
+.modal { background:var(--surface); color:var(--text); padding:20px; border-radius:10px; width:280px; border:1px solid var(--border); }
+.modal input { width:100%; padding:8px; margin:10px 0; box-sizing:border-box; background:var(--bg); color:var(--text); border:1px solid var(--border); border-radius:6px; }
 .modal-actions { display:flex; gap:8px; }
 .modal-actions button { flex:1; padding:6px; cursor:pointer; }
-.danger { background:#fee2e2; border-color:#fca5a5; }
+.danger { background:var(--danger-soft); border-color:var(--danger); }
 </style>
